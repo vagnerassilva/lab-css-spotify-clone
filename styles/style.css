@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-left: 20px;
+  display: block;
+  width: 175px;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.container-nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-nav-links li,
+a {
+  list-style: none;
+  padding: 7px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero-image {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image h1 {
+  font-size: 60px;
+  padding: 20px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.hero-image h2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1a1a1a;
+  margin-bottom: 60px;
+}
+
+.icons {
+  margin: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 34px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  text-decoration: underline #00b172;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h4 {
+  margin: 20px;
+  font-size: 24px;
+  color: #00b172;
+  text-align: center;
+}
+
+.container-footer {
+  background-color: #00b172;
+  margin: 0 30px;
+  padding-top: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.text-footer {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 40px 45px;
+  color: #fff;
+}
+
+.text-footer h3 {
+  text-align: start;
+  font-size: 25px;
+  text-decoration: underline #fff;
+  padding: 0;
+  margin: 30px 0;
+  color: #fff;
+}
+
+.text-footer h4 {
+  text-align: start;
+  font-size: 23px;
+  padding: 0;
+  margin: 25px 0;
+  color: #fff;
+}
+
+.icon-footer {
+  margin: 245px 40px;
+  height: 110px;
+}
+
+.app-footer {
+  margin: 40px 45px;
+  height: 480px;
+}
